@@ -4,7 +4,6 @@ Library           Selenium2Library
 *** Test Cases ***
 Register
     Open Browser    https://www.mikrosat.hu/shop_reg.php?overlay=cust_error    Chrome
-    Set Window Size    1800    980
     Set Selenium Speed    0.2 seconds
     Input Text    //*[@id="emai"]    kiralyvagyok@gmail.com
     Input Text    //*[@id="passwd1"]    password123.
